@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://c3ah35p0t3mki"]
+
+[ext_resource type="Texture2D" uid="uid://1u84tkbnl2ao" path="res://icon.svg" id="1_nebgc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ke71m"]
+size = Vector2(131, 129)
+
+[node name="Pumpkin_Clicker" type="CharacterBody2D" unique_id=1173734020]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1326959184]
+position = Vector2(-3, -2)
+texture = ExtResource("1_nebgc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1461593787]
+position = Vector2(-2.5, -0.5)
+shape = SubResource("RectangleShape2D_ke71m")
